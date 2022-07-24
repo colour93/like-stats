@@ -9,7 +9,7 @@
 2. 创建完毕后，打开云函数的 `函数管理` -> `函数代码`，其中就是熟悉的阉割版 VSCode，新建一个终端，输入以下指令
 
 ```shell
-rm -rf src && git clone https://github.com/colour93/like-stats src && cp src/config.template.json src/config.json
+rm -rf src && git clone https://hub.fastgit.xyz/colour93/like-stats src && cp src/config.template.json src/config.json
 ```
 
 3. [修改配置文件](#配置文件)
