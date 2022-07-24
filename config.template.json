@@ -1,0 +1,26 @@
+{
+    "redis": {
+        "socket": {
+            "host": "127.0.0.1",
+            "port": 6379
+        },
+        "password": "redisPassword",
+        "database": 1
+    },
+    "rules": {
+        "type": [
+            "ip",
+            "session"
+        ],
+        "session": {
+            "secret": "sessionSecret",
+            "expired": 30
+        },
+        "ip": {
+            "expired": 30
+        }
+    },
+    "manage": {
+        "authKey": "manageKey"
+    }
+}

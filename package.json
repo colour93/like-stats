@@ -1,0 +1,17 @@
+{
+  "name": "like-stats-scf",
+  "version": "1.0.0",
+  "description": "依托云函数实现的站点喜欢等数据统计",
+  "main": "sls.js",
+  "scripts": {
+    "dev": "node app.js"
+  },
+  "author": "colour93",
+  "dependencies": {
+    "connect-redis": "^6.1.3",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.3",
+    "redis": "^4.2.0"
+  }
+}

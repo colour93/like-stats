@@ -1,0 +1,14 @@
+# node 相关
+node_modules
+package-lock.json
+yarn.lock
+
+# scf 相关
+serverless.yml
+scf_bootstrap
+
+# 配置文件
+config.json
+
+# vscode
+.vscode
