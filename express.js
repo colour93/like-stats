@@ -10,7 +10,7 @@ const router = require('./router');
 
 const config = require('./config.json');
 
-app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
 
 // expres-session
 if (config.rules.type.includes('session')) {
